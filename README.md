@@ -6,6 +6,10 @@
 
 [![Clojars Project](https://clojars.org/metabase/toucan.admin/latest-version.svg)](http://clojars.org/metabase/toucan.admin)
 
-# Cam's Clojure Library template
+# Toucan.admin
 
-Run `./init.sh` and follow the prompts. That's it!
+Automatic admin interface built on top of [Toucan](https://github.com/metabase/toucan). Like Django admin, but for Clojure!
+
+### DISCLAIMER
+
+Toucan.admin is still a very early-stage alpha. It is being used for internal tooling at Metabase, and rapid improvements should be forthcoming! Check back soon for full documentation and examples to help you get started.
