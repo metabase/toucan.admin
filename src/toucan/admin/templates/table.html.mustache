@@ -1,0 +1,23 @@
+<div class="row" style="margin:16px;">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        {{#columns}}
+          <th>{{.}}</th>
+        {{/columns}}
+      </tr>
+    </thead>
+    <tbody>
+      {{#rows}}
+        <tr>
+          {{#vals}}
+            <td>{{{.}}}</td>
+          {{/vals}}
+        </tr>
+      {{/rows}}
+    </tbody>
+  </table>
+  {{#nextPage}}
+    <a class="btn btn-primary btn-lg" href={{nextPage}}>Next Page</a>
+  {{/nextPage}}
+</div>

@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+{{#saved}}
+  <h3><i>Your changes have been saved successfully.</i></h3>
+  <img src="https://railsgirlssummerofcode.org/img/blog/2016/l1ghtsab3r-partyparrot.gif"
+    alt="Party Time!"
+    height="100px"
+    size="100px"
+  />
+{{/saved}}
+<form class="form" action="{{save-action-url}}" method="put">
+  <div class="form-group>"
+    <!-- detail view body begins here -->
+    {{{body}}}
+    <!-- detail view body ends here -->
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-default">
+      Save Changes
+    </button>
+  </div>
+</form>
